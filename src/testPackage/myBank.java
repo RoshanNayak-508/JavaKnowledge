@@ -50,7 +50,7 @@ public class myBank {
 			System.out.println("2. Withdraw");
 			System.out.println("3. Deposit");
 			System.out.println("4. Exit");
-			System.out.println("4. Exit");
+			
 		
 			option = scanner.nextInt();
 			
