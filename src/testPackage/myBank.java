@@ -20,7 +20,7 @@ public class myBank {
 
 	static void withdraw() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the amount to withdraw: ");
+		System.out.print("Enter the amount to withdraw:: ");
 		double withdraw = sc.nextDouble();
 		if (balance < withdraw) {
 			System.out.println("Your balance is not sufficient");
